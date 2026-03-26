@@ -21,6 +21,8 @@ class Program
 
             scripture.HideRandomWords(3);
 
+            Console.Clear();
+
             Console.WriteLine(scripture.GetDisplayText());
 
             if (scripture.IsCompletelyHidden())
