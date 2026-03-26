@@ -21,8 +21,9 @@ public class Video
         return _comments.Count();
     }
 
-    public void DisplayInfo()
+    public void Display()
     {
+        Console.WriteLine("=================================");
         Console.WriteLine($"Title: {_title}");
         Console.WriteLine($"Author: {_author}");
 
@@ -38,6 +39,7 @@ public class Video
             comment.Display();
         }
 
-        Console.WriteLine();
+        Console.WriteLine("=================================\n");
     }
+
 }
